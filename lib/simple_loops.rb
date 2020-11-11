@@ -18,7 +18,7 @@ def output_array (array)
   array.each { |i| puts i}
 end
 
-# def return_string_array (array)
-#     array.collect |i| {i.to_s}
-#   end
+def return_string_array (array)
+    array.collect |i| {i.to_s}
+  end
   
